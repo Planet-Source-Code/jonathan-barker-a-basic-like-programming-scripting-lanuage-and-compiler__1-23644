@@ -1,0 +1,58 @@
+' a silly little example by Jonny...
+print "What is your name?"
+ww = input()
+print "Hello there, " + ww + "!"
+
+print "How many iterations should i do? (ie, 10000)"
+its = input()
+
+print "Calculating pi..."
+
+for(i, 1, its, 1)
+p = (p + (1 / (i * i)))
+next(i)
+
+s = sqr(p * 6)
+
+print("Pi is " + s + "!")
+
+
+s = (5 + 9) * 10 + (180 / 18)
+y = 5 + 9 + 8
+msgbox("y is " + y, 0, "wow")
+
+
+
+ifless(6, z) goto "goback"
+
+msgbox("Multiplier",0,"Here comes the")
+
+num1 = inputbox("What is the first number?", "Input", "")
+num2 = inputbox("What is the second number?", "Input", "")
+
+msgbox(num1 + " times " + num2 + " is...",0,"Here it comes...")
+msgbox(num1 * num2 + "!!!", 0, "WOW!")
+
+'set hello 
+hello = "Are you normal?"
+'set goodbye
+goodbye = "An Interesting Question..."
+'put up a messagebox
+output = msgbox(hello, 36, goodbye)
+
+ifequal(output, 6) msgbox("Haha. Yeh... right...", 0, "Really?")
+
+ifequal(output, 7) msgbox("HAHA! Thought so...", 0, "FREAK!!!")
+
+myage = 16
+
+age = inputbox("How hold are you?", "Question:", "")
+
+ifgreater(myage, age) msgbox("You are older than me!", 0, "Info")
+
+ifless(myage, age) msgbox("You are younger than me!", 0, "Info")
+
+ifequal(myage, age) msgbox("You are the same age as me!", 0, "Info")
+
+msgbox(("In 5 decades time you will be " + ((5*10)+age) + " years old!"), 0, "Info")
+
